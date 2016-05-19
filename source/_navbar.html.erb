@@ -1,36 +1,32 @@
-<div class="navbar-wagon">
-  <!-- Logo -->
-  <% link_to "/", class: "navbar-wagon-brand" do %>
-    <%= image_tag "lewagon.png" %>
-  <% end %>
+<div class="navbar-container navbar-fixed">
+
+  <!-- Left Navigation  (create wagon-left in CSS) -->
+  <div class="navbar-left col-md-6 col-hidden-xs hidden-sm">
+    <h3 class="text-center"><a href="#">About</a></h3>
+  </div>
 
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
+  <div class="navbar-right col-md-6 hidden-xs hidden-sm">
+    <h3 class="text-center"><a href="#">Mystery Page</a></h3>
+  </div>
+</div>
 
-    <!-- Search form -->
-    <form action="" class="navbar-wagon-search">
-      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
-      <button type="submit" class="navbar-wagon-search-btn">
-        <i class="fa fa-search"></i>
-      </button>
-    </form>
-
-    <!-- Text link -->
-    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
-
-    <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
-
-    <!-- Notification link-->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">
-      <div class="badge-container">
-        <i class="fa fa-envelope-o"></i>
-        <div class="badge badge-blue">3</div>
+    <!--
+          PROFILE PICTURE AND DROP DOWN
+    <div class="navbar-wagon-item navbar-fixed">
+      <div class="dropdown">
+        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
-    </a>
+    </div> -->
 
-    <!-- Profile picture and dropdown -->
-    <div class="navbar-wagon-item">
+ <!-- Profile picture and dropdown
+
+    <div class="navbar-wagon-item navbar-fixed">
       <div class="dropdown">
         <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
@@ -41,11 +37,7 @@
       </div>
     </div>
 
-    <!-- Button (call-to-action) -->
-    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
-  </div>
-
-  <!-- Dropdown appearing on mobile only -->
+  Dropdown appearing on mobile only
   <div class="navbar-wagon-item hidden-md hidden-lg">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
@@ -57,3 +49,4 @@
     </div>
   </div>
 </div>
+-->

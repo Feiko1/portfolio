@@ -1,0 +1,19 @@
+.btn {
+  background-color: transparent;
+  border: solid 1px $brand-light;
+  color: $brand-light;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.btn:hover {
+  background-color: $brand-light;
+  border: solid 1px $brand-light;
+  color: $brand-dark;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 3px;
+}

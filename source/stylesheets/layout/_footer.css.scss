@@ -1,0 +1,11 @@
+.footer-container {
+  background-color: $brand-dark;
+  color: $brand-light;
+  width: 100%;
+  height: 50px;
+  p {
+    color: $brand-light;
+    text-align: center;
+    padding-top: 13px;
+   }
+}

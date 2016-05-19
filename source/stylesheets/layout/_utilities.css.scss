@@ -3,6 +3,23 @@
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
+// Often used
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.text-bullseye {
+  text-align: center;
+  color: inherit;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0px 75px 0px 75px;
+}
 
 // Paddings
 .padded {
@@ -22,4 +39,23 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+// Index Page
+.index-lrg-visual {
+  background-image: url(../images/background-temp.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 68px;
+  h1 {
+    color: $brand-light;
+  }
+}
+
+// .index-lrg-visual > h3 {
+//   color: $brand-light;
+// }
+
+#intro-position {
+  padding-top: 500px;
 }

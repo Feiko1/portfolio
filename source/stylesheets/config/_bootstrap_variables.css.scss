@@ -11,11 +11,10 @@ $line-height-base:        $base-height;
 $headings-font-family:    $header-font;
 
 // Semantic color scheme
-$brand-primary:   $blue;
-$brand-success:   $green;
-$brand-info:      $yellow;
-$brand-danger:    $red;
-$brand-warning:   $orange;
+$brand-light:     $white;
+$brand-contrast:  $contrast;
+$brand-dark:      $black;
+$brand-gray:      $gray;
 
 // Buttons / inputs radius
 $border-radius-base:  2px;
