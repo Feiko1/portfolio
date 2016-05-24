@@ -10,7 +10,7 @@
 //   justify-content: space-between;
 // }
 
-/* Main Class Navbar */
+/* MAIN CLASS NAVBAR */
 .navbar-container {
   display: flex;
   h3 {
@@ -22,12 +22,14 @@
   }
 }
 
-/* Navbar right section (with form, links, button) */
+/* NAVBAR LEFT & RIGHT PART */
 .navbar-right {
   align-items: center;
   justify-content: space-between;
   background-color: $brand-dark;
   color: $brand-light;
+  box-shadow: 0px 1px 4px gray;        // ask JAD -> how to solve vert line?
+
 }
 
 .navbar-left {
@@ -35,15 +37,30 @@
   justify-content: space-between;
   background-color: $brand-light;
   color: $brand-dark;
+  box-shadow: 0px 1px 5px gray;        // ask JAD -> how to solve vert line?
 }
 
-/* Optional class to fix the navbar on top */
+/* OPTIONAL TO PIN TO TOP */
 .navbar-fixed {
   position: fixed;
   left: 0px;
   top: 0px;
   z-index: 1;
   width: 100%;
+}
+
+/* HAMBURGER MENU */
+.nav-burger-menu {
+  font-size: 27px;
+  vertical-align: center;
+  position: relative;
+  left: -279px;           // @JAD >> this is probably not the right way? relative, left:20px not working
+  color: $brand-dark;
+}
+
+.hamburger-attributes {
+  width: 65px;
+  height: 65px;
 }
 
 // /* Navbar item */

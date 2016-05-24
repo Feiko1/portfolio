@@ -1,7 +1,16 @@
 .info-banner {
   background-color: $brand-contrast;
   color: $brand-light;
-  height: 250px;
+  height: 360px;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 85px;
+}
+
+.banner-text {
+  height: 550px;
+  background-color: $brand-light;
+  color: $brand-dark;
+  text-align: center;
+  padding-top: 200px;
+
 }
