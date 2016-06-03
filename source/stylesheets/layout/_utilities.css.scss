@@ -79,6 +79,39 @@ a:hover {
 
 
 
+// CONTACT PAGE STYLE _ TRANSFER WHEN FILE WORKS //
+.contact-banner {
+  background-color: $brand-dark;
+  color: $brand-light;
+  height: 100vh;
+  width: 100%;
+  padding-top: 180px;
+
+}
+
+.contact-header {
+text-align: center;
+}
+
+.icons{
+  text-align: center;
+  font-size: 50px;
+  color: $brand-light;
+  word-spacing: 20px;
+  padding-top: 400px;
+  :hover{
+    transition: color 400ms ease-in;
+    color: $brand-contrast;
+  }
+}
+
+
+
+
+
+
+
+
 // .index-lrg-visual > h3 {
 //   color: $brand-light;
 // }

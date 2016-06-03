@@ -16,6 +16,11 @@
     border-bottom: 10px solid red;
     text-decoration: none;
     transition: 800ms;
+
+    & .fa-cloud-download{
+      color: red;
+      transition: 800ms;
+    }
   }
 }
 
@@ -29,6 +34,10 @@
 
 .menu-transition-visible {
   transform: translateX(0);
+}
+
+.fa-cloud-download {
+  font-size: 30px;
 }
 
 
