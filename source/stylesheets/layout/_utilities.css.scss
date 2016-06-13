@@ -83,29 +83,37 @@ a:hover {
 .contact-banner {
   background-color: $brand-dark;
   color: $brand-light;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding-top: 180px;
+  padding-bottom: 180px;
 
 }
 
 .contact-header {
 text-align: center;
+align-items: center;
 }
 
 .icons{
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   color: $brand-light;
-  word-spacing: 20px;
-  padding-top: 400px;
+  word-spacing: 200px;
+  padding-top: 200px;
   :hover{
     transition: color 400ms ease-in;
     color: $brand-contrast;
   }
 }
 
+#contact-card {
+  text-decoration: none;
+}
 
+body.contact .footer-container {
+   display: none;
+}
 
 
 
@@ -117,5 +125,5 @@ text-align: center;
 // }
 
 #intro-position {
-  padding-top: 500px;
+  padding-top: 430px;
 }
