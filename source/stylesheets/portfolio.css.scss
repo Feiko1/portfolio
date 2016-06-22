@@ -1,0 +1,32 @@
+.portfolio-layout {
+  height: 1200px;
+  background-color: $brand-light;
+  color: $brand-dark;
+  text-align: center;
+  h1 {
+    margin-bottom: 45px;
+  }
+}
+
+.feiko-projects {
+  width: 820px;
+  height: 300px;
+  color: $brand-dark;
+  padding: 10px 20px 10px 20px;
+}
+
+.project-card {
+  p {
+    width: 270px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: $brand-dark;
+  }
+}
+
+
+.dinecity-image {
+  width: 70vh;
+  height: 100%;
+
+}
