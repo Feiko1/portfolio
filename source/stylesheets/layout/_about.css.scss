@@ -22,10 +22,14 @@
   top: 0;
   bottom: 0;
   transition: opacity 300ms ease-in;
+  p {
+    font-size: 17px;
+    color: black;
+  }
 }
 
-.about-card:hover .about-card-hover{
-  opacity: 1;
+.about-card-hover:hover {
+  opacity: 1.2;
 }
 
 

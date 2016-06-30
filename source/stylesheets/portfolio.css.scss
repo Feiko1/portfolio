@@ -8,6 +8,15 @@
   }
 }
 
+.coding {
+  padding: 50px 10px 0px 10px;
+
+}
+
+.personal {
+  padding: 30px 10px 0px 10px;
+}
+
 .feiko-projects {
   width: 820px;
   height: 300px;
@@ -17,8 +26,9 @@
 
 .project-card {
   p {
-    width: 270px;
-    margin: 0 auto;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-size: 18px;
     color: $brand-dark;
   }
@@ -26,7 +36,7 @@
 
 
 .dinecity-image {
-  width: 70vh;
+  width: 80vh;
   height: 100%;
 
 }
