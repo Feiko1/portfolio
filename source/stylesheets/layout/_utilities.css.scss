@@ -46,10 +46,14 @@ a:hover {
 
 // Index Page
 .index-lrg-visual {
-  background-image: url(../images/background-temp.jpg);
+  background-image: url(../images/feiko_talk.jpg);
   background-size: cover;
   height: 100vh;
   padding-top: 68px;
+  background-color: rgba(248, 247, 216, 0.7);
+
+    // width: 100%;
+    // height: 100%;
   h1 {
     color: $brand-light;
   }
@@ -125,5 +129,9 @@ body.contact .footer-container {
 // }
 
 #intro-position {
-  padding-top: 430px;
+  padding-top: 380px;
+
+  // h1, a {
+  //   text-shadow: 0px 1px 2px #000000;
+  // }
 }
