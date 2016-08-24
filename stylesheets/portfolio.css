@@ -1,0 +1,37 @@
+/* line 1, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+.portfolio-layout {
+  height: 1200px;
+  background-color: #F6F6F6;
+  color: #1A2A35;
+  text-align: center; }
+  /* line 6, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+  .portfolio-layout h1 {
+    margin-bottom: 45px; }
+
+/* line 11, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+.coding {
+  padding: 50px 10px 0px 10px; }
+
+/* line 16, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+.personal {
+  padding: 30px 10px 0px 10px; }
+
+/* line 20, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+.feiko-projects {
+  width: 820px;
+  height: 300px;
+  color: #1A2A35;
+  padding: 10px 20px 10px 20px; }
+
+/* line 28, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+.project-card p {
+  width: 300px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 18px;
+  color: #1A2A35; }
+
+/* line 38, /Users/FeikoB/code/Feiko1/portfolio/source/stylesheets/portfolio.css.scss */
+.dinecity-image {
+  width: 80vh;
+  height: 100%; }
